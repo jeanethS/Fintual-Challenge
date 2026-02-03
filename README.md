@@ -1,6 +1,7 @@
 # Portfolio Rebalancer
 
 This project implements a **simple portfolio rebalancing engine** with a UI layer to visualize allocations, drift, and suggested trades in real time.
+Real demo https://jeaneths.github.io/Fintual-Challenge/
 
 ![site](app/Preview.png)
 
