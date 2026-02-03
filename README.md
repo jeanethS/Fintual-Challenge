@@ -2,7 +2,7 @@
 
 This project implements a **simple portfolio rebalancing engine** with a UI layer to visualize allocations, drift, and suggested trades in real time.
 
-![site](../../../Fintual-Challenge/app/Preview.png)
+![site](app/Preview.png)
 
 ---
 
@@ -146,7 +146,7 @@ This compares current holdings vs. target goals and return trades done, those de
 
 ## UI Layer
 
-The user interface was created with the help of **Windsurf**, using this core library as the single source of truth, here is the chat log to consult it [chat log](<../../../Fintual-Challenge/app/Portfolio Rebalancing Tool.md>)
+The user interface was created with the help of **Windsurf**, using this core library as the single source of truth, here is the chat log to consult it [chat log](app/Portfolio Rebalancing Tool.md)
 
 ### UI Capabilities
 
