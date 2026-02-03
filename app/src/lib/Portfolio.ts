@@ -1,22 +1,22 @@
-interface Stock {
+export interface Stock {
     symbol: string;
     getCurrentPrice: () => number;
 }
 
-interface PortfolioStock {
+export interface PortfolioStock {
     stock: Stock;
     sharesOwned: number;
     targetAllocation: number;
 }
 
-interface RebalanceAction {
+export interface RebalanceAction {
     symbol: string;
     action: 'BUY' | 'SELL';
     shares: number;
-    value: number
+    value: number;
 }
 
-class Portfolio {
+export class Portfolio {
     constructor(private stocks: PortfolioStock[]) {
         this.validateAllocations();
     }
