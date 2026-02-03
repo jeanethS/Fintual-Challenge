@@ -27,7 +27,6 @@ export interface Stock {
   getCurrentPrice: () => number;
 }
 ```
-This interface represents a Stock.
 
 **Design decision:**  
 `Stock` is an interface instead of a class to keep the core logic simpler.
